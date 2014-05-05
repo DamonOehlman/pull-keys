@@ -15,7 +15,7 @@ var vkey = require('vkey');
 
   For any key presses:
 
-  <<< examples/any.js
+  <<< examples/anykey.js
 
   Or define, a key map:
 

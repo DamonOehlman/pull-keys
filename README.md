@@ -13,7 +13,16 @@ might be a good idea too.
 
 For any key presses:
 
-ERROR: could not find: 
+```js
+var pull = require('pull-stream');
+var keymap = require('pull-keys');
+
+pull(
+  keymap(),
+  pull.log()
+);
+
+```
 
 Or define, a key map:
 
