@@ -21,6 +21,11 @@ var vkey = require('vkey');
 
   <<< examples/keymap.js
 
+  Additionally, you can do some clever things by using a keymap to map key combinations
+  to [taskify](https://github.com/DamonOehlman/taskify) tasks:
+
+  <<< examples/tasks.js
+
 **/
 
 module.exports = pull.Source(function(keymap, el) {

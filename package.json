@@ -22,7 +22,8 @@
   },
   "homepage": "https://github.com/DamonOehlman/pull-keys",
   "devDependencies": {
-    "pull-stream": "^2"
+    "pull-stream": "^2",
+    "taskify": "^3"
   },
   "dependencies": {
     "pull-core": "^1",
