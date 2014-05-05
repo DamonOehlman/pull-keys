@@ -1,0 +1,30 @@
+{
+  "name": "pull-keymap",
+  "version": "0.0.0",
+  "description": "Pull stream for UI keydown events",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DamonOehlman/pull-keymap.git"
+  },
+  "keywords": [
+    "pull-stream",
+    "keymap"
+  ],
+  "author": "Damon Oehlman <damon.oehlman@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DamonOehlman/pull-keymap/issues"
+  },
+  "homepage": "https://github.com/DamonOehlman/pull-keymap",
+  "devDependencies": {
+    "pull-stream": "^2.22.2"
+  },
+  "dependencies": {
+    "pull-core": "^1.0.0",
+    "vkey": "0.0.3"
+  }
+}
