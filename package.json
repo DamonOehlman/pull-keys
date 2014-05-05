@@ -4,6 +4,7 @@
   "description": "Pull stream for UI keydown events",
   "main": "index.js",
   "scripts": {
+    "gendocs": "gendocs > README.md",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
