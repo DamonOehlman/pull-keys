@@ -1,6 +1,6 @@
 {
   "name": "pull-keys",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Pull stream for UI keydown events",
   "main": "index.js",
   "scripts": {
