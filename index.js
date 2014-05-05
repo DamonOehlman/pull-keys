@@ -127,6 +127,7 @@ module.exports = pull.Source(function(keymap, el) {
 
   function next(end, cb) {
     if (end) {
+      el.removeEventListener('keydown', handleKey);
       return cb(end);
     }
 
