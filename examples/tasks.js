@@ -15,7 +15,8 @@ task('up', ['selectAll'], function() {
 pull(
   pk({
     selectAll: ['<control>', 'a'],
-    up: '<up>'
+    up: '<up>',
+    right: true
   }),
 //   pull.log()
   pull.drain(task.exec)
