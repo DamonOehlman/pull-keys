@@ -15,10 +15,10 @@ For any key presses:
 
 ```js
 var pull = require('pull-stream');
-var keymap = require('pull-keys');
+var pk = require('pull-keys');
 
 pull(
-  keymap(),
+  pk(),
   pull.log()
 );
 
@@ -28,10 +28,10 @@ Or define, a key map:
 
 ```js
 var pull = require('pull-stream');
-var keymap = require('pull-keys');
+var pk = require('pull-keys');
 
 pull(
-  keymap({
+  pk({
     left: '<left>',
     right: true,
     selectAll: ['<control>', 'a']

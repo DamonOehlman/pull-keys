@@ -1,7 +1,7 @@
 var pull = require('pull-stream');
-var keymap = require('../');
+var pk = require('../');
 
 pull(
-  keymap(),
+  pk(),
   pull.log()
 );

@@ -1,8 +1,8 @@
 var pull = require('pull-stream');
-var keymap = require('../');
+var pk = require('../');
 
 pull(
-  keymap({
+  pk({
     left: '<left>',
     right: true,
     selectAll: ['<control>', 'a']
