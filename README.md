@@ -7,7 +7,7 @@ might be a good idea too.
 
 [![NPM](https://nodei.co/npm/pull-keys.png)](https://nodei.co/npm/pull-keys/)
 
-![experimental](https://img.shields.io/badge/stability-experimental-red.svg)
+[![unstable](https://img.shields.io/badge/stability-unstable-yellowgreen.svg)](https://github.com/dominictarr/stability#unstable) [![bitHound Score](https://www.bithound.io/github/DamonOehlman/pull-keys/badges/score.svg)](https://www.bithound.io/github/DamonOehlman/pull-keys) 
 
 ## Example Usage
 
@@ -75,7 +75,7 @@ pull(
 
 ### ISC
 
-Copyright (c) 2014, Damon Oehlman <damon.oehlman@gmail.com>
+Copyright (c) 2015, Damon Oehlman <damon.oehlman@gmail.com>
 
 Permission to use, copy, modify, and/or distribute this software for any
 purpose with or without fee is hereby granted, provided that the above
