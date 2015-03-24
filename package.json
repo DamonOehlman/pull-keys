@@ -27,6 +27,6 @@
   },
   "dependencies": {
     "pull-core": "^1",
-    "vkey": "0.0.3"
+    "vkey": "^1.0.0"
   }
 }
